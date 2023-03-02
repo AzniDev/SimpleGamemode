@@ -24,7 +24,7 @@ permissions:
     default: op
   simplegamemode.gmc:
     default: op
-  simplegamemode.gmsa:
+  simplegamemode.gma:
     default: op
   simplegamemode.gmsp:
     default: op
