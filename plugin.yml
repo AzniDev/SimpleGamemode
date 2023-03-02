@@ -1,0 +1,38 @@
+name: SimpleGamemode
+version: 1.0.0-Release
+api: 4.0.0
+author: AzniDev / AzniMzn
+main: AzniDev\SimpleGamemode\SimpleGamemode
+website: https://github.com/AzniDev/SimpleGamemode
+
+commands:
+  gms:
+    description: Set gamemode to survival
+    permission: simplegamemode.gms
+  gmc:
+    description: Set gamemode to creative
+    permission: simplegamemode.gmc
+  gma:
+    description: Set gamemode to adventure
+    permission: simplegamemode.gma
+  gmsp:
+    description: Set gamemode to spectator
+    permission: simplegamemode.gmsp
+    
+permissions:
+  simplegamemode.gms:
+    default: op
+  simplegamemode.gmc:
+    default: op
+  simplegamemode.gmsa:
+    default: op
+  simplegamemode.gmsp:
+    default: op
+  simplegamemode.gms.other:
+    default: op
+  simplegamemode.gmc.other:
+    default: op
+  simplegamemode.gma.other:
+    default: op
+  simplegamemode.gmsp.other:
+    default: op
