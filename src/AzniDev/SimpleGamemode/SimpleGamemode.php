@@ -3,7 +3,7 @@
 namespace AzniDev\SimpleGamemode;
 
 use pocketmine\player\Player;
-use poxketmine\player\GameMode;
+use pocketmine\player\GameMode;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
 use pocketmine\command\Command;
